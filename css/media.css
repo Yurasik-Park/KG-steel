@@ -1,0 +1,455 @@
+@media (max-width: 479px) {
+  html {
+    font-size: 10px;
+  }
+  body {
+    background: linear-gradient(to right, rgba(75,75,75,0.3) 101%, transparent 77%),
+    url("../img/iron.jpg") fixed;
+}
+  .header-logo img {
+  width: 50px;
+}
+.header-style {
+  font-size: 1.81rem;
+}
+  nav {
+    display: flex;
+  }
+  .navigation {
+    transform: translateY(-99%);
+    position: absolute;
+    left: -313px;
+    top: -39px;
+    background-color: black;
+    height: 32vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: 0.3s;
+  }
+  .navigation_active {
+    transform: translateX(0%);
+  }
+  .navigation ul {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navigation a {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  header h1 {
+    font-size: 1.81rem;
+    padding-top: 20.75rem;
+  }
+  .nav-close {
+    content: "";
+    display: none;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    left: 91%;
+    top: 25px;
+    margin-left: -10px;
+    z-index: 125;
+    transform: rotate(46deg);
+  }
+  .nav-close::after {
+    content: "";
+    display: inherit;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    z-index: 125;
+    transform: rotate(-92deg);
+  }
+  .nav-line {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    left: 97%;
+    top: 25px;
+    margin-left: -10px;
+  }
+  .nav-line::before {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    transform: translateY(-5px);
+  }
+  .nav-line::after {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    transform: translateY(3px);
+  }
+  .benefits {
+    padding-bottom: 0.4375rem;
+  }
+  .service {
+    margin-top: 0;
+  }
+  .service::before {
+    height: 62.2rem;
+  }
+  .service-item:nth-child(odd) p {
+    text-align: center;
+  }
+  .service-item:nth-child(even) p {
+     float: none;
+}
+  .service img {
+    width: 3.6875rem;
+  }
+  .service-item p {
+    width: auto;
+    position: static;
+    float: none;
+    text-align: center;
+  }
+  .service {
+    background-attachment: local;
+  }
+  .service-img::after {
+      display: none;
+  }
+  .container {
+    width: 80%;
+  }
+  .portfolio img {
+    width: 100%;
+  }
+  .benefit-item {
+    float: none;
+    margin: 12px auto;
+    border-left: none;
+    border-bottom: 2px solid #d80027;
+    padding: 5.625rem 1.875rem 0 2.875rem;
+    padding-bottom: 20px;
+  }
+  .benefit-item:first-child {
+    margin: 0 auto;
+  }
+  .benefit-item:last-child {
+    border-bottom-color: transparent;
+  }
+  .benefit-item::before {
+    top: -9px;
+    left: 6.1rem;
+  }
+  .benefit-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .porfolio {
+    padding-bottom: 3.25rem;
+  }
+  .portfolio-basket dl,
+  .portfolio-gates dl,
+  .portfolio-doors dl {
+    float: none;
+    text-align: center;
+  }
+  .portfolio dt {
+    margin-top: 185px;
+  }
+  .portfolio dd {
+    margin-bottom: 20px;
+  }
+  footer {
+    margin-top: 0.5rem;
+  }
+  .btn-sub::after {
+    width: 120%;
+    left: 50%;
+    top: 200px;
+    margin: -60%;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+  .contact {
+    margin-left: 0;
+    padding-top: 0.65rem;
+  }
+  .btn-fb {
+    height: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  #back-top {
+    display: none !important;
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  body {
+    background: linear-gradient(to right, rgba(75,75,75,0.3) 101%, transparent 77%),
+    url(../img/iron.jpg) fixed;
+  }
+  nav {
+    display: flex;
+  }
+  .navigation {
+    transform: translateY(-100%);
+    position: absolute;
+    left: -375px;
+    top: -45px;
+    background-color: black;
+    height: 32vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    transition: 0.3s;
+  }
+  .navigation_active {
+    transform: translateX(0%);
+  }
+  .navigation ul {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navigation a {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  header h1 {
+    font-size: 25px;
+    padding-top: 18.75rem;
+  }
+  .nav-close {
+    content: "";
+    display: none;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    left: 91%;
+    top: 25px;
+    margin-left: -10px;
+    z-index: 125;
+    transform: rotate(46deg);
+  }
+  .nav-close::after {
+    content: "";
+    display: inherit;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    z-index: 125;
+    transform: rotate(-92deg);
+  }
+  .nav-line {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    left: 97%;
+    top: 25px;
+    margin-left: -10px;
+  }
+  .nav-line::before {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    transform: translateY(-5px);
+  }
+  .nav-line::after {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    transform: translateY(3px);
+  }
+  .header-style {
+    font-size: 27px;
+  }
+  .header-logo img {
+    width: 80px;
+  }
+  .benefits {
+    padding-bottom: 0.4375rem;
+  }
+  .service {
+    margin-top: 0;
+  }
+  .service::before {
+    height: 62.2rem;
+  }
+  .service-item:nth-child(odd) p {
+    text-align: center;
+  }
+  .service img {
+    width: 3.6875rem;
+  }
+  .service-item p {
+    width: 35rem;
+    position: static;
+    float: none;
+    text-align: center;
+  }
+  .service {
+    background-attachment: local;
+  }
+  .service-img::after {
+      display: none;
+  }
+  .container {
+    width: 450px;
+  }
+  .portfolio img {
+    width: 100%;
+  }
+  .benefit-item {
+    float: none;
+    margin: 12px auto;
+    border-left: none;
+    border-bottom: 2px solid #d80027;
+    padding: 5.625rem 1.875rem 0 2.875rem;
+    padding-bottom: 20px;
+  }
+
+  .benefit-item:first-child {
+    margin: 0 auto;
+  }
+  .benefit-item:last-child {
+    border-bottom-color: transparent;
+  }
+  .portfolio-basket dl,
+  .portfolio-gates dl,
+  .portfolio-doors dl {
+    float: none;
+    text-align: center;
+  }
+  .portfolio dt {
+    margin-top: 235px;
+  }
+  .portfolio dd {
+    margin-bottom: 20px;
+  }
+  .btn-sub::after {
+    width: 190%;
+    left: 50%;
+    margin-left: -85%;
+    top: 90px;
+  }
+  #back-top {
+    bottom: 20px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 13px;
+  }
+  nav {
+    margin-left: 20.25rem;
+  }
+
+  .header-logo img {
+    width: 80px;
+  }
+
+  .service {
+    background-attachment: local;
+  }
+  .service-item:nth-child(even) p {
+    left: 58%;
+}
+.service-item:nth-child(odd) p {
+    padding-right: 18px;
+}
+.service-img::after {
+    width: 75px;
+    height: 75px;
+    top: -15%;
+    margin-left: -40px;
+}
+  .container {
+    width: 730px;
+  }
+  .portfolio img {
+    width: 50%;
+  }
+  .benefit-item:first-child {
+    margin-left: 3.25rem;
+  }
+  .btn-sub::after {
+    width: 260%;
+    left: 50%;
+    margin-left: -130%;
+    top: 90px;
+  }
+  #bac-top {
+      bottom: 75px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+  .header-logo img {
+    width: 100px;
+  }
+  .container {
+    width: 930px;
+  }
+  .service-img::after {
+      width: 75px;
+      height: 75px;
+      top: -15%;
+      margin-left: -40px;
+  }
+  .portfolio img {
+    width: 50%;
+  }
+  .benefit-item:first-child {
+    margin-left: 9.95rem;
+  }
+  #back-top {
+      bottom: 75px;
+  }
+}
